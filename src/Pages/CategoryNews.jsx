@@ -23,7 +23,7 @@ const CategoryNews = () => {
   }, [data, id]);
   return (
     <div>
-      <h2 className="font-bold">
+      <h2 className="font-bold pb-5">
         Total <span className="text-secondary">{categoryNews.length}</span> News
         Found{" "}
       </h2>{" "}

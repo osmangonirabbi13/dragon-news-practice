@@ -1,10 +1,12 @@
 import React from "react";
 import SoicalLogin from "./SoicalLogin";
+import FindUs from "./FindUs";
 
 const RightAside = () => {
   return (
-    <div>
+    <div className="space-y-8">
       <SoicalLogin></SoicalLogin>
+      <FindUs />
     </div>
   );
 };
